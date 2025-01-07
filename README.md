@@ -25,7 +25,7 @@ Imagine you have critical files that must remain unchanged, but you’re worried
 
 ---
 
-### SETUP INSTRUCTIONS
+### Setup Instructions 
 
 #### 1. Install Python
 - Download and install Python from [python.org](https://www.python.org/). Ensure you check the option to add Python to your system PATH during installation.
@@ -49,7 +49,7 @@ Imagine you have critical files that must remain unchanged, but you’re worried
 
 ---
 
-### HOW TO USE
+### How to use
 
 #### 1. Run the Tool
 - If you're using the `.bat` file, simply double-click `run_checker.bat` to start the tool.
@@ -75,7 +75,7 @@ Imagine you have critical files that must remain unchanged, but you’re worried
 
 ---
 
-### PRECAUTIONS
+### Precautions
 
 - **Use Trusted Files Only:** Ensure the files you’re monitoring are not corrupted to begin with.
 - **Administrator Permissions:** If you're running the tool on system-protected files, you may need admin permissions.
