@@ -85,8 +85,5 @@ Imagine you have critical files that must remain unchanged, but you’re worried
 
 ## OUTPUT
 
-Below are links to images showing the output of the tool in action:
-- [Image 1: Initial hash calculation](#)
-- [Image 2: Detecting file modification](#)
-- [Image 3: Logs stored in a text file](#)
+![output1](https://github.com/user-attachments/assets/a115c343-ed6e-46c4-80ae-eeb384fb4aa9)
 
