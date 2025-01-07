@@ -25,57 +25,57 @@ Imagine you have critical files that must remain unchanged, but you’re worried
 
 ---
 
-## SETUP INSTRUCTIONS
+### SETUP INSTRUCTIONS
 
-### 1. Install Python
+#### 1. Install Python
 - Download and install Python from [python.org](https://www.python.org/). Ensure you check the option to add Python to your system PATH during installation.
 
-### 2. Install Required Libraries
+#### 2. Install Required Libraries
 - Open your terminal and run the following command to install the required library:
   ```bash
   pip install hashlib
   ```
   *(Note: `hashlib` is part of Python’s standard library, so you don’t need to install it separately.)*
 
-### 3. Clone the Repository
+#### 3. Clone the Repository
 - Clone this repository to your system using:
   ```bash
   git clone https://github.com/yourusername/file-integrity-checker.git
   ```
 
-### 4. Windows Batch File Setup
+#### 4. Windows Batch File Setup
 - For convenience, I’ve created a `.bat` file that allows you to run the tool like a standalone app.
 - Just double-click the `run_checker.bat` file in the repository to launch the tool. This eliminates the need to manually type `python file_integrity_checker.py` in the terminal. *(Batch file is designed specifically for this purpose.)*
 
 ---
 
-## HOW TO USE
+### HOW TO USE
 
-### 1. Run the Tool
+#### 1. Run the Tool
 - If you're using the `.bat` file, simply double-click `run_checker.bat` to start the tool.
 - If you prefer the manual way, open your terminal, navigate to the project folder, and run:
   ```bash
   python file_integrity_checker.py
   ```
 
-### 2. Provide File Path
+#### 2. Provide File Path
 - When prompted, enter the full path of the file you want to monitor. For example:
   ```plaintext
   C:\Users\Devang\Documents\example.txt
   ```
 
-### 3. Modify the File
+#### 3. Modify the File
 - Make changes to the file (e.g., edit it and save).
 
-### 4. Check for Integrity
+#### 4. Check for Integrity
 - Press Enter when prompted to check if the file has been modified.
 
-### 5. Logs
+#### 5. Logs
 - All results are saved in a `logs/integrity_check_log.txt` file for your reference.
 
 ---
 
-## PRECAUTIONS
+### PRECAUTIONS
 
 - **Use Trusted Files Only:** Ensure the files you’re monitoring are not corrupted to begin with.
 - **Administrator Permissions:** If you're running the tool on system-protected files, you may need admin permissions.
